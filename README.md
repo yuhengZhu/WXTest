@@ -1,2 +1,0 @@
-# WXTest
-wxprojectTest

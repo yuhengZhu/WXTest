@@ -1,0 +1,42 @@
+<scroll-view class='buyScrollView' scroll-y="true">
+  <block wx:for="{{buyList}}" wx:key="*this">
+    <view class="buyItem" style="background: yellow;">
+      <view height="75%">
+        <view class="isBuy"></view>
+        <image src="{{item.productImgUrl}}" class="productImgUrl"></image>
+        <text class="productName">{{item.productName}}</text>
+        <text class="productDesc">{{item.productDesc}}</text>
+        <text class="isSpecialOffer">{{item.isSpecialOffer}}</text>
+        <text class="unitPrice">{{item.unitPrice}}</text>
+        <text class="count">{{item.count}}</text>
+      </view>
+      <view class="totoalView">
+        <text>小计:￥{{item.count}}</text>
+      </view>
+      <view class="lineView"></view>
+    </view>
+    <view class="buyItem" style="background: red;">
+      <view height="75%">
+        <view class="isBuy"></view>
+        <image src="{{item.productImgUrl}}" class="productImgUrl"></image>
+        <text class="productName">{{item.productName}}</text>
+        <text class="productDesc">{{item.productDesc}}</text>
+        <text class="isSpecialOffer">{{item.isSpecialOffer}}</text>
+        <text class="unitPrice">{{item.unitPrice}}</text>
+        <text class="count">{{item.count}}</text>
+      </view>
+      <view class="totoalView">
+        <text>小计:￥{{item.count}}</text>
+      </view>
+      <view class="lineView"></view>
+    </view>
+  </block>
+</scroll-view>
+<view class="settleAccountsView">
+  <button></button>
+  <text>全选</text>
+  <text>合计:</text>
+  <text>￥323</text>
+  <button class="settleAccountsBtn">去结算</button>
+</view>
+

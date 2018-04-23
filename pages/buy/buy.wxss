@@ -1,0 +1,73 @@
+/* pages/buy/buy.wxss */
+.buyScrollView {
+  height: 80%;
+  width: 100%;
+}
+
+.buyItem {
+  width: 100%;
+  height: 200rpx;
+  position: relative;
+}
+
+.isBuy {
+  height: 20;
+  width: 20rpx;
+  float: left;
+}
+
+.productImgUrl {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  top: 50%;
+  margin-left: 20rpx;
+  transform: translateY(-50%);
+}
+
+.productName {
+  position: relative;
+  margin-left: 20rpx;
+}
+
+.productDesc {
+  position: relative;
+  margin-top: 20rpx;
+}
+
+.isSpecialOffer {
+
+}
+
+.unitPrice {
+
+}
+
+.count {
+
+}
+
+.lineView {
+  width: 100%;
+  height: 0.5rpx;
+  background-color: #000;
+  position: absolute;
+  top: 99%;
+}
+
+.settleAccountsView {
+  position:absolute;
+  bottom:-80rpx;
+  height: 80rpx;
+  width: 100%;
+  background-color: #90f;
+}
+
+.settleAccountsBtn {
+  background-color: #23A3FF;
+  width: 280rpx;
+  height: 80rpx;
+  color: white;
+  position:absolute;
+  right:0px;
+}

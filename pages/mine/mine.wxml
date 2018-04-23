@@ -1,0 +1,14 @@
+<!--pages/mine/mine.wxml--> 
+<view class='container'>
+  <view class="top">
+    <view class="userInfo">
+      <image class="userInfo-avatar" src="{{userInfo.avatarUrl}}"></image>
+      <text class="userInfo-nickname">{{userInfo.nickName}}</text>
+    </view>
+    <view calss="function"></view>
+  </view>
+  <view class="bottom"></view>
+</view>
+
+
+
