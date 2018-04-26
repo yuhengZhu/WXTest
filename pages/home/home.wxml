@@ -6,21 +6,13 @@
     </swiper-item>
   </block>
 </swiper>
-<scroll-view scroll-x="true" class="category-scroll">
-  <!-- <block wx:for="{{category}}" wx:key="*this">
-    <view class="category-item">
-       <image src="{{item.imageUrl}}" class="category-image"></image>
-      <text class="category-title">{{item.title}}</text> 
+<view class="scroll_box">
+  <scroll-view scroll-x="true" class="category-scroll">
+   <block wx:for="{{category}}" wx:key="*this">
+    <view class="category-item" bindtap="categoryClick">
+      <image src="{{item.imageUrl}}" class="category-image"></image>
+      <view class="category-title">{{item.title}}</view> 
     </view>
-  </block> -->
-  <view class="category-item" style="background: red;width:25%; height:100%">
-    </view>
-        <view class="category-item" style="background: blue;width:25%; height:100%">
-    </view>
-        <view class="category-item" style="background: yellow;width:25%; height:100%">
-    </view>
-        <view class="category-item" style="background: purple;width:25%; height:100%">
-    </view>
-        <view class="category-item" style="background: black;width:25%; height:100%">
-    </view>
+   </block>  
 </scroll-view>
+</view>

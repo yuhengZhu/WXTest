@@ -17,23 +17,23 @@ Page({
     category:[
       {
         "imageUrl":"http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
-        "title":"水果转场"
+        "title":"第一分类"
       },
       {
         "imageUrl": "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
-        "title": "水果转场"
+        "title": "第二分类"
       },
       {
         "imageUrl": "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
-        "title": "水果转场"
+        "title": "第三分类"
       },
       {
         "imageUrl": "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
-        "title": "水果转场"
+        "title": "第四分类"
       },
       {
         "imageUrl": "http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg",
-        "title": "水果转场"
+        "title": "第五分类"
       },
     ]
   },
@@ -97,5 +97,9 @@ Page({
   imageTapAction: function(index) {
     console.log("图片被点击了")
     console.log(index)
+  },
+
+  categoryClick: function() {
+    console.log("分类被点击了")
   }
 })
